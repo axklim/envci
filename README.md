@@ -1,0 +1,4 @@
+```bash
+. <(envci)
+. <(envci -c)
+```
