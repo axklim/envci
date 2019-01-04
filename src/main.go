@@ -42,7 +42,7 @@ func (vars *Variables) ToMap(m map[string]string) {
 type Projects []Project
 
 type Project struct {
-	Id				  int
+	Id                int
 	Name              string
 	PathWithNamespace string `json:"path_with_namespace"`
 	Namespace         struct {
